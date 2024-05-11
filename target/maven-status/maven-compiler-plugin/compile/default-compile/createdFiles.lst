@@ -1,0 +1,10 @@
+org\learning\util\Tokenize.class
+org\learning\beam\basic\ProcessingTimeWindow.class
+org\learning\beam\basic\StreamingWordCount.class
+org\learning\beam\basic\WordCount.class
+org\learning\util\PrintElements$LogResultsFn.class
+org\learning\beam\basic\WithReadDelay$DelayFn.class
+org\learning\beam\basic\DemoClass.class
+org\learning\beam\basic\WithReadDelay.class
+org\learning\util\Utils.class
+org\learning\util\PrintElements.class
