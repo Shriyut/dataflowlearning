@@ -15,11 +15,11 @@ import java.util.stream.Collectors;
 
 public class Utils {
 
-    public static List<String> getLines(InputStream stream) throws IOException {
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(stream))) {
-            return reader.lines().collect(Collectors.toList());
-        }
-    }
+//    public static List<String> getLines() throws IOException {
+//        try (BufferedReader reader = new BufferedReader(new InputStreamReader(stream))) {
+//            return reader.lines().collect(Collectors.toList());
+//        }
+//    }
 
     public static List<String> toWords(String input) {
         return Arrays.stream(input.split("\\W+"))
